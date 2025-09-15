@@ -43,9 +43,7 @@ class Tree:
 
 
 def ceiling():
-    num_trees_and_size = input().split()
-    num_trees = int(num_trees_and_size[0])
-    size = int(num_trees_and_size[1])
+    num_trees = int(input().split()[0])
     shapes = 0
     trees = []
 
